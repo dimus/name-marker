@@ -1,6 +1,8 @@
 = name-marker
 
-Description goes here.
+A tool to markup, hilghlight, and link scientific names in texts, and html pages.
+
+
 
 == Note on Patches/Pull Requests
  

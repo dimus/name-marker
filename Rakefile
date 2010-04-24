@@ -5,13 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "name-marker"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A tool to markup, hilghlight, and link scientific names in texts, and html pages.}
+    gem.description = %Q{A tool to markup, hilghlight, and link scientific names in texts, and html pages.}
     gem.email = "dmozzherin@gmail.com"
     gem.homepage = "http://github.com/dimus/name-marker"
     gem.authors = ["Dmitry Mozzherin"]
     gem.add_development_dependency "rspec"
     gem.add_development_dependency "cucumber"
+    gem.add_development_dependency "ruby-debug"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

@@ -1,3 +1,5 @@
+tags
+name-marker.gemspec
 *.sw?
 .DS_Store
 coverage
