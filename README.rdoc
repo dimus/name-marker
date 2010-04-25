@@ -1,7 +1,8 @@
 = name-marker
 
 A tool to markup, hilghlight, and link scientific names in texts, and html pages.
-
+This code is a clone of a NameTag/NameLink tools developed in PHP by Patrick Leary. 
+Patrick's code is hosted at http://nametag.googlecode.com
 
 
 == Note on Patches/Pull Requests

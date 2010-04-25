@@ -6,7 +6,9 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "name-marker"
     gem.summary = %Q{A tool to markup, hilghlight, and link scientific names in texts, and html pages.}
-    gem.description = %Q{A tool to markup, hilghlight, and link scientific names in texts, and html pages.}
+    gem.description = %Q{A tool to markup, hilghlight, and link scientific names in texts, and html pages.
+    This code is a ruby translation of a NameTag/NameLink tools developed in PHP by Patrick Leary.
+    Patrick's code is hosted at http://nametag.googlecode.com}
     gem.email = "dmozzherin@gmail.com"
     gem.homepage = "http://github.com/dimus/name-marker"
     gem.authors = ["Dmitry Mozzherin"]

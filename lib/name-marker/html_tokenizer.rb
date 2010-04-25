@@ -3,11 +3,20 @@ class NameMarker
     def initialize(html_text, taxon_finder_stop_keyword = 'tf_stop')
       @html = html_text
       @taxon_finder_stop_array = [taxon_finder_stop_keyword, -1]
+      @tokenized_html = nil
     end
 
     def tokenize
       tokens = html_to_words_and_tags
-      remove_tags(tokens)
+      @tokenized_html = remove_tags(tokens)
+    end
+
+    def tokens
+      @tokenized_html ||= tokenize
+    end
+    
+    def html
+      @html
     end
     
   private
